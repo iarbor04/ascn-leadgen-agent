@@ -2,7 +2,7 @@
  "agent": "leadgen",
  "name": "Kevin",
  "repo": "iarbor04/ascn-leadgen-agent",
- "version": "2026-10-21-de5e14d28891",
+ "version": "2026-10-22-d1f1c464ca5f",
  "data_root": "files/leadgen",
  "defaults": "defaults",
  "skills": [
@@ -62,7 +62,7 @@
  },
  "files": {
   "AGENTS.leadgen-addon.md": "961544f016b51834709709855ce4ed68ecf85260714a2a777c5252498a63e708",
-  "AGENTS.leadgen-rules.md": "6d6535dabf1184fe0e06c242159d3d13cd3ed2b416c1291c3021f70808f8139f",
+  "AGENTS.leadgen-rules.md": "193af3d52db995cbeb418cae1ba3002ac5a3743cc9b02daebdfa4dfed3a23718",
   "IDENTITY.md": "e88da34f833c009c2a58535e26722f2ddf8e5fb2c8346fffbc093d85cf1dd8a4",
   "SOUL.md": "fbeb357429f0fa8dea0ed57979aaba775de871fec8fb94f983da09e50676196a",
   "THIRD_PARTY_NOTICES.md": "50490b044d1ca069272ae163bf1b72cfb590127dfeabc8d68027b19aeb3049fa",
