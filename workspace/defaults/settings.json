@@ -1,0 +1,40 @@
+{
+ "language": "",
+ "market": "",
+ "market_evidence": "",
+ "icp": {
+  "industries": [],
+  "regions": [],
+  "size_min": null,
+  "size_max": null,
+  "roles": [],
+  "exclude": [],
+  "keywords": []
+ },
+ "scoring": {
+  "fit": {"industry": 20, "region": 15, "size": 15, "role": 10},
+  "intent": {"hiring": 15, "tender": 20, "funding": 15, "new_branch": 10, "site_change": 5, "inbound": 25, "referral": 20, "news": 5, "other": 3},
+  "intent_cap": 40,
+  "signal_days": 90,
+  "tiers": {"A": 70, "B": 45}
+ },
+ "limits": {"email": 30, "telegram": 20, "linkedin": 15, "call": 40, "batch_max": 25},
+ "sender": {
+  "name": "",
+  "company": "",
+  "email": "",
+  "opt_out_line_ru": "Если тема неактуальна, ответьте «нет» — больше не напишу.",
+  "opt_out_line_en": "If this isn't relevant, just reply \"no\" and I won't write again.",
+  "opt_out_markers": []
+ },
+ "sequence": {"steps_days": [3, 7, 14], "max_steps": 4},
+ "not_now_days": 90,
+ "goals": {"meetings_per_week": null},
+ "crm": {"target": "", "amocrm_pipeline_id": null, "bitrix_category_id": null, "sheet": ""},
+ "routines": {
+  "lead_batch": {"on": false, "schedule": "", "size": 10, "cron_name": "kevin-lead-batch"},
+  "followups": {"on": false, "schedule": "", "cron_name": "kevin-followups"},
+  "weekly_report": {"on": false, "schedule": "", "cron_name": "kevin-weekly-report"},
+  "signal_watch": {"on": false, "schedule": "", "cron_name": "kevin-signal-watch"}
+ }
+}

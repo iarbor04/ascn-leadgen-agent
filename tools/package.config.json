@@ -1,0 +1,28 @@
+{
+ "agent": "leadgen",
+ "name": "Kevin",
+ "repo": "iarbor04/ascn-leadgen-agent",
+ "data_root": "files/leadgen",
+ "addons": [
+  {
+   "file": "AGENTS.leadgen-addon.md",
+   "into": "AGENTS.md"
+  },
+  {
+   "file": "AGENTS.leadgen-rules.md",
+   "into": "AGENTS.md",
+   "position": "top"
+  }
+ ],
+ "legacy": {},
+ "refresh": [],
+ "start": {
+  "profile": "profile/leadgen-profile.md",
+  "greeting": "Hi! I'm Kevin, your lead generation specialist 👋\nI'll help you get more qualified leads and meetings with companies that fit you. No guarantees, just steady work you can check.\nWhat I do:\n🔎 Find companies like your best customers, with a link to where I saw each one\n👤 Find who decides there and their public work contacts\n✉️ Write personal first messages and follow-ups, sent only after your yes\n📋 Keep the list in Google Sheets, HubSpot, amoCRM, Bitrix24 or a file\n⏰ While you're away: new companies every day or week, with messages waiting for your approval\nTo start, I need one thing:\n1. Your website, or two sentences about what you sell and to whom\nSend it and I'll come back right away with the first companies that fit! 🚀",
+  "failed": "Setup isn't finished yet. Write me any message and I'll finish it.",
+  "skill": "leadgen-onboarding",
+  "greeting_by_language": {
+   "ru": "Привет! Я Кевин, специалист по поиску клиентов 👋\nПомогу получать больше подходящих заявок и встреч с компаниями, которым нужен ваш продукт. Без обещаний — честная работа, которую можно проверить.\nЧто я делаю:\n🔎 Нахожу компании, похожие на ваших лучших клиентов, со ссылкой, где я каждую увидел\n👤 Нахожу, кто там принимает решение, и открытые рабочие контакты\n✉️ Пишу личные первые письма и напоминания — отправляю только после вашего «да»\n📋 Веду список в Google Таблицах, HubSpot, amoCRM, Битрикс24 или в файле\n⏰ Пока вас нет в чате: новые компании каждый день или неделю, с готовыми письмами на ваше одобрение\nЧтобы начать, нужно одно:\n1. Ваш сайт или два предложения: что вы продаёте и кому\nПришлите — и сразу вернусь с первыми подходящими компаниями! 🚀"
+  }
+ }
+}

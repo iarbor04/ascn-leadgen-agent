@@ -1,0 +1,100 @@
+{
+ "agent": "leadgen",
+ "name": "Kevin",
+ "repo": "iarbor04/ascn-leadgen-agent",
+ "version": "2026-10-21-de5e14d28891",
+ "data_root": "files/leadgen",
+ "defaults": "defaults",
+ "skills": [
+  "call-scripts",
+  "cold-outreach",
+  "crm-sync",
+  "decision-maker-finder",
+  "follow-up-sequences",
+  "ideal-customer",
+  "intent-signals",
+  "lead-routines",
+  "lead-scoring",
+  "lead-search",
+  "leadgen-onboarding",
+  "pipeline-report",
+  "reply-handling",
+  "sales-playbook",
+  "sales-proposal"
+ ],
+ "addons": [
+  {
+   "file": "AGENTS.leadgen-addon.md",
+   "into": "AGENTS.md",
+   "marker": "<!-- leadgen-addon:v1 -->"
+  },
+  {
+   "file": "AGENTS.leadgen-rules.md",
+   "into": "AGENTS.md",
+   "marker": "<!-- leadgen-rules:v1 -->",
+   "position": "top",
+   "end": "<!-- /leadgen-rules -->"
+  }
+ ],
+ "legacy": {},
+ "refresh": [],
+ "platform": [
+  "AGENTS.md",
+  "AUTOMATIONS.md",
+  "USER.md",
+  "MEMORY_POLICY.md",
+  "rules/",
+  "files/tool-output/"
+ ],
+ "publish_exclude": [
+  "files/leadgen/",
+  "files/tool-output/",
+  "files/scripts/__pycache__/"
+ ],
+ "start": {
+  "profile": "profile/leadgen-profile.md",
+  "greeting": "Hi! I'm Kevin, your lead generation specialist 👋\nI'll help you get more qualified leads and meetings with companies that fit you. No guarantees, just steady work you can check.\nWhat I do:\n🔎 Find companies like your best customers, with a link to where I saw each one\n👤 Find who decides there and their public work contacts\n✉️ Write personal first messages and follow-ups, sent only after your yes\n📋 Keep the list in Google Sheets, HubSpot, amoCRM, Bitrix24 or a file\n⏰ While you're away: new companies every day or week, with messages waiting for your approval\nTo start, I need one thing:\n1. Your website, or two sentences about what you sell and to whom\nSend it and I'll come back right away with the first companies that fit! 🚀",
+  "failed": "Setup isn't finished yet. Write me any message and I'll finish it.",
+  "skill": "leadgen-onboarding",
+  "greeting_by_language": {
+   "ru": "Привет! Я Кевин, специалист по поиску клиентов 👋\nПомогу получать больше подходящих заявок и встреч с компаниями, которым нужен ваш продукт. Без обещаний — честная работа, которую можно проверить.\nЧто я делаю:\n🔎 Нахожу компании, похожие на ваших лучших клиентов, со ссылкой, где я каждую увидел\n👤 Нахожу, кто там принимает решение, и открытые рабочие контакты\n✉️ Пишу личные первые письма и напоминания — отправляю только после вашего «да»\n📋 Веду список в Google Таблицах, HubSpot, amoCRM, Битрикс24 или в файле\n⏰ Пока вас нет в чате: новые компании каждый день или неделю, с готовыми письмами на ваше одобрение\nЧтобы начать, нужно одно:\n1. Ваш сайт или два предложения: что вы продаёте и кому\nПришлите — и сразу вернусь с первыми подходящими компаниями! 🚀"
+  }
+ },
+ "files": {
+  "AGENTS.leadgen-addon.md": "961544f016b51834709709855ce4ed68ecf85260714a2a777c5252498a63e708",
+  "AGENTS.leadgen-rules.md": "6d6535dabf1184fe0e06c242159d3d13cd3ed2b416c1291c3021f70808f8139f",
+  "IDENTITY.md": "e88da34f833c009c2a58535e26722f2ddf8e5fb2c8346fffbc093d85cf1dd8a4",
+  "SOUL.md": "fbeb357429f0fa8dea0ed57979aaba775de871fec8fb94f983da09e50676196a",
+  "THIRD_PARTY_NOTICES.md": "50490b044d1ca069272ae163bf1b72cfb590127dfeabc8d68027b19aeb3049fa",
+  "defaults/exports/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "defaults/leads/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "defaults/logs/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "defaults/outbox/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "defaults/profile/leadgen-profile.md": "79a2eab91a6e45e787e1dddf31468213e7674b5dbecf1835638efffd3751c373",
+  "defaults/reports/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "defaults/sequences/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "defaults/settings.json": "fff75f7bd3e6a986670d0a391d4e65dac6a4510d6f8b3ebaeb9d66d3c4cb3fc6",
+  "files/scripts/leadgen.py": "ea328a6fc3b66217f504ee65006a761068e0649aa4dfae21f32ae17330d1f5f9",
+  "files/scripts/package.py": "6a4e489752b8f1413fe72154f33318343f386291315ec550484cbdf137750d9f",
+  "knowledge/lead-sources.md": "ee4ed4011460c6f140feb0d673d9f39c100cd7ef821426c5c38c33ab7090b079",
+  "knowledge/markets.md": "c9b60a452599f3238a477ffde1349610512bd284f5d995358cbc2dbb0d3af35f",
+  "knowledge/outreach-rules.md": "7a70ac480bc30da01ae509426fe83d2e21c586c140b953c7b5850ea2ce9e7c88",
+  "skills/call-scripts/SKILL.md": "d0b5f456a9b109399406d967e6193f00c91f5a29acff2524a685e226084c0257",
+  "skills/cold-outreach/SKILL.md": "6cb2513996ed7001f0eb14380ec5f9e8b94c33e8686ef5f4cc9cb9c517048175",
+  "skills/crm-sync/SKILL.md": "1de8f0019deada67e918a1eae7aff381e4cf26a8b7bba6f0de5c3c02a30b6387",
+  "skills/decision-maker-finder/SKILL.md": "eea7dbd646a6ee081fc15959693866f2274e3a6f956d85bdfe8ee6f81d5854cc",
+  "skills/follow-up-sequences/SKILL.md": "34df12fa23090b412460eaa265f179366575c3d4c4979530a0e28c15a8640b5f",
+  "skills/ideal-customer/SKILL.md": "b811083f62721170898c2367bedee22ed283f2d88322a0a39426e1751c481e2c",
+  "skills/intent-signals/SKILL.md": "3c34527bffd11c4c9260aa71cdd2d777dc58726ce3b990557d0b5ffb9725d20c",
+  "skills/lead-routines/SKILL.md": "db837d850708968e296a799860aa2a94cfa189cd5f46bb26c72f6f28ce2ce776",
+  "skills/lead-scoring/SKILL.md": "d03974fa88d77e7bafc91d436c6bf321927975774e47b356d78ae1fe4c173ff7",
+  "skills/lead-search/SKILL.md": "95e120cb40b9486a1b76b640cf5885b9964d4b57c3a80d6f4cd87cc07c48a2cd",
+  "skills/leadgen-onboarding/SKILL.md": "9fb4e41c932908ed205138f418873226b965a13ba77d7e4dd6b6decb0a136158",
+  "skills/pipeline-report/SKILL.md": "d0949a375ae0b57526924b32516ef0e28fd2863ad102066dde4b5e3050f901be",
+  "skills/reply-handling/SKILL.md": "1f1bdbbc5ebc994f75242adbfcba87e03160e46597cec16190594710036a0500",
+  "skills/sales-playbook/SKILL.md": "c3482fb19f2fc6cdc9ee1e2bf725f814fbef6368eb41a7ede4d1b888288ea6de",
+  "skills/sales-proposal/SKILL.md": "52ec1cae1ddd9ec7eb835439bbb22bad374252f71a07aeb33107d6f561ca9644",
+  "third_party/anthropic-knowledge-work-plugins-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "third_party/goose-skills-LICENSE.txt": "9c05de6851e9b409f52b4fac51a37e740878be9fd482cbc020747e322a9ceca1"
+ }
+}
