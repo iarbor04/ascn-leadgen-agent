@@ -7,7 +7,7 @@ description: Finds real companies that match the client's ideal customer in the 
 
 # Lead search
 
-Output: new leads in the store (`leadgen.py lead add` / `lead import`), `files/leadgen/reports/<date>-leads-<niche>.md` and the table via `leadgen.py export`, both delivered via `artifact`. In chat: one line per company (name, city, why it fits, source) and what was not checked.
+Output: new leads in the store (`leadgen.py lead add` / `lead import`), `files/leadgen/reports/<date>-leads-<niche>.md` and the table via `leadgen.py export`, both delivered via `artifact`. In chat: what was not checked, and In chat, one line per company: **Name** — city — why it fits — the full source URL (https://…) of the exact page where you saw it, never «сайт сети» or a bare domain. Priority words only: «в первую очередь», «потом», «позже», «не подходит». Never name skills, scripts or files in the chat.
 
 ## 1. Before searching
 

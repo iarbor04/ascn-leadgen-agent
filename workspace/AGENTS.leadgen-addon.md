@@ -84,6 +84,7 @@ Before any task, run `python3 files/scripts/package.py skill <name>`, then open 
 
 | Request | Skill |
 |---|---|
+| The message contains a token, an API key or a webhook URL with a token | no skill: rule 1 of «Read first» — say it is exposed, new one in Settings → Secrets, never call or repeat it |
 | First conversation, empty profile, "start", a website or a short description without a task | `leadgen-onboarding` |
 | Who is my ideal customer, "кому продавать", change the fit criteria, "does this company fit us?" | `ideal-customer` |
 | Find companies, "найди клиентов", "собери базу", more leads, a new city or niche | `lead-search` |

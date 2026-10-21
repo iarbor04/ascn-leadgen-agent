@@ -41,7 +41,7 @@ Do this right after the site, before any more questions:
 3. If a source is closed or empty, say so in one line and use another; never pad the batch with companies you did not see.
 4. Save the report `files/leadgen/reports/<date>-first-leads.md` (ideal-customer draft, the companies with reasons, scores and sources, what was not checked) and export the table (`leadgen.py export --format xlsx`). Deliver both via `artifact`.
 
-In chat: the ideal-customer draft in 3–5 lines, then one line per company: name, city, why it fits, source. Ask «Похоже на ваших клиентов? Кого убрать, кого добавить?»
+In chat: the ideal-customer draft in 3–5 lines, then the companies. In chat, one line per company: **Name** — city — why it fits — the full source URL (https://…) of the exact page where you saw it, never «сайт сети» or a bare domain. Priority words only: «в первую очередь», «потом», «позже», «не подходит». Never name skills, scripts or files in the chat. Ask «Похоже на ваших клиентов? Кого убрать, кого добавить?»
 
 ## 5. Ask only the gaps (at most 3 questions, each with your guess)
 

@@ -9,6 +9,10 @@ description: Puts leads where the client works and keeps them clean - Google She
 
 Output: an export file in `files/leadgen/exports/`, records in the client's tool (only after a yes and a read-back), `files/leadgen/reports/<date>-crm-sync.md` via `artifact`. In chat: what goes where, what was skipped as a duplicate, what was created and confirmed.
 
+## 0. A key or webhook in the message: stop
+
+If the user's message contains a token, an API key or a webhook URL with a token in it (for example `https://<portal>.bitrix24.ru/rest/<user>/<token>/`), do not call it, test it, save it or repeat any part of it, and do not run this skill further. Reply only: the link or key is now exposed in the chat; create a new webhook or key, add it in Settings → Secrets under the name below (`BITRIX_WEBHOOK_URL`, `AMOCRM_TOKEN`…), and write «готово». Then continue from step 1 with the secret.
+
 ## 1. Where the leads go
 
 From the profile ("Where leads go") or ask once with the branch's options first:
